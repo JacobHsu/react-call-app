@@ -1,7 +1,6 @@
 import './App.css';
 import CallApp from 'callapp-lib';
-// import callApp from 'call-app';
-// import CallApp from './call-app/src/index.ts'
+
 
 function App() {
 
@@ -9,16 +8,16 @@ function App() {
     scheme: {
       protocol: 'zhihu',
     },
-    intent: {
-      package: 'com.zhihu.android',
-      scheme: 'zhihu',
-    },
-    universal: {
-      host: 'oia.zhihu.com',
-      pathKey: '',
-    },
+    // intent: {
+    //   package: 'com.zhihu.android',
+    //   scheme: 'zhihu',
+    // },
+    // universal: {
+    //   host: 'oia.zhihu.com',
+    //   pathKey: '',
+    // },
     appstore: 'https://itunes.apple.com/cn/app/id432274380',
-    yingyongbao: '//a.app.qq.com/o/simple.jsp?pkgname=com.zhihu.android',
+    // yingyongbao: '//a.app.qq.com/o/simple.jsp?pkgname=com.zhihu.android',
     fallback: 'https://oia.zhihu.com/',
     timeout: 2000,
   };
